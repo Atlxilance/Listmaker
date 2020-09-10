@@ -22,6 +22,8 @@ private const val ARG_PARAM2 = "param2"
 class ListSelectionFragment : Fragment(),
 ListSelectionRecyclerViewAdapter.ListSelectionRecyclerViewClickListener {
     // TODO: Rename and change types of parameters
+    lateinit var listDataManager: ListDataManager
+    lateinit var listsRecyclerView: RecyclerView
     private var listener: OnListItemFragmentInteractionListener? =
         null
 
