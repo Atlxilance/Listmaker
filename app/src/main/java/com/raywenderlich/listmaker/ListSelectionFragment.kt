@@ -72,6 +72,7 @@ ListSelectionRecyclerViewAdapter.ListSelectionRecyclerViewClickListener {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+
         val lists = listDataManager.readLists()
         listsRecyclerView =
             findViewById<RecyclerView>(R.id.lists_recyclerview)
